@@ -22,6 +22,29 @@ It is used to support manipulation and processing of data.
 It is used to provide security of data.
 It can view the database from different viewpoints according to the requirements of the user.
 
+<b>Four Types of DBMS systems are:<b>
+
+<b>Hierarchical database<b>
+<b>Network database<b>
+<b>Relational database<b>
+<b>Object-Oriented database<b>
+<b>Hierarchical DBMS<b>
+
+In a Hierarchical database, model data is organized in a tree-like structure. Data is Stored Hierarchically (top down or bottom up) format. Data is represented using a parent-child relationship. In Hierarchical DBMS parent may have many children, but children have only one parent.
+
+<b>Network Model<b>
+
+The network database model allows each child to have multiple parents. It helps you to address the need to model more complex relationships like as the orders/parts many-to-many relationship. In this model, entities are organized in a graph which can be accessed through several paths.
+
+<b>Relational model<b>
+
+Relational DBMS is the most widely used DBMS model because it is one of the easiest. This model is based on normalizing data in the rows and columns of the tables. Relational model stored in fixed structures and manipulated using SQL.
+
+
+<b>Object-Oriented Model<b>
+
+In Object-oriented Model data stored in the form of objects. The structure which is called classes which display data within it. It defines a database as a collection of objects which stores both data members values and operations.
+
 <b>Advantages of DBMS</b>
 
 Controls database redundancy: It can control data redundancy because it stores all the data in one single database file and that recorded data is placed in the database.
@@ -36,3 +59,5 @@ Cost of Hardware and Software: It requires a high speed of data processor and la
 Size: It occupies a large space of disks and large memory to run them efficiently.
 Complexity: Database system creates additional complexity and requirements.
 Higher impact of failure: Failure is highly impacted the database because in most of the organization, all the data stored in a single database and if the database is damaged due to electric failure or database corruption then the data may be lost forever.
+
+
